@@ -28,13 +28,14 @@ img{
 }
 
 
+
 /* ____________________________________________________________________________________________*/
                                     /* Topo da pagina HTML */
 
 header {
 
-	background-color: green;
-	/* background:linear-gradient(to right top, #0000FF, #1E90FF); */
+	/* background-color: green; */
+	background:linear-gradient(to right top, #0000FF, #1E90FF);
 
 	width: 100%;
 	height: 86px;
@@ -48,7 +49,7 @@ header {
 
 section{
 	
-	background-color: yellow;
+	/* background-color: yellow; */
 	/* background-color: none; */
 
 	width: 100%;
@@ -285,6 +286,14 @@ li{
 
 }
 
+/* TAG [ p ] */
+.men{
+	position: absolute;
+	/* padding-bottom:5px;*/
+	margin-top: 8px;
+	margin-left: 60px;
+
+}
 
 #chk:checked ~ #secundario {
 
@@ -355,10 +364,10 @@ li{
                                 /* Conteudo das paginas html */
 aside{
 
-    background-color: red;
+    /* background-color: red; */
 	/* background-color: #DCDCDC; */
 
-    /* background: linear-gradient(to right top, #1E90FF, #B0E0E6);    /* <------=  */
+    background: linear-gradient(to right top, #1E90FF, #B0E0E6);    /* <------=  */
 
 	border-radius:10px 10px 10px 10px;
 
@@ -380,7 +389,7 @@ aside{
 
 #conteudo{
 
-	background-color: green;			/* <------=  */
+	/* background-color: green;			/* <------=  */
 	/* background-color: none;				/* <------=  */
 
 	width: 99%;
@@ -416,6 +425,10 @@ aside{
 
 }
 
+.item_img{
+	
+	display: none;
+}
 
 #home01 {
 	
@@ -511,6 +524,7 @@ aside{
 
 }
 
+/* TAG [ p ] */
 .hc {
 	
 	display: block;
@@ -528,6 +542,12 @@ aside{
 	
 }
 
+.listaHome{
+	
+	opacity: 0; 
+	display:none;
+	
+}
 
 /* #seg_01 */
 .hc:hover{
@@ -792,4 +812,12 @@ footer{
 	z-index:2;   /* esse elemento fica na frente da lista do menu ao esconder */
 	
 }
+
+footer:hover{
+	
+	height: 86px;
+	transition: all .3s linear;
+	
+}
+	
 
