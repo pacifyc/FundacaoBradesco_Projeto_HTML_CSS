@@ -20,3 +20,197 @@ body{
 	width: 100%;
 	height: 100%;
 }
+
+/* ____________________________________________________________________________________________*/
+                                    /* Topo da pagina HTML */
+
+header {
+
+	background-color: green;
+	/* background:linear-gradient(to right top, #0000FF, #1E90FF); */
+
+	width: 100%;
+	height: 86px;
+
+	color: white;
+	text-align: center;
+
+}
+
+/* ____________________________________________________________________________________________*/
+
+section{
+	
+	background-color: yellow;
+	/* background-color: none; */
+
+	width: 100%;
+	height: 460px;
+
+	display: flex;
+
+	margin-bottom:5%;	
+
+}
+
+/* --------------------------------------------------------------------------------------------*/
+                    /* Componenteste detro do componente --> [ section ] */
+
+#menu_abrir {
+	
+	background: red;
+	
+	margin: 4px;
+	
+	opacity:1;
+	
+}
+
+#menu_fechar {
+
+	/* background: brown;   /* <------= */
+
+	margin: 4px;
+
+	opacity:0;
+
+	display: none;
+}
+
+/* ____________________________________________________________________________________________*/
+
+
+
+/* ____________________________________________________________________________________________*/
+                                /* Menu Lateral */
+article{
+	
+	background-color: orange;
+	/* background-color: #ADD8E6; 	*/					/* #E0FFFF */
+	/* background: linear-gradient(to left bottom, #E0FFFF, #ADD8E6); <------=  */
+
+	/* width: 58px; */
+	width: 4%;	
+
+	height: 100%;
+
+	border: 2px solid #1E90FF;
+	border-radius:0px 10px 10px 0px;
+	text-align: center;
+	
+	transition: all .4s;
+	
+}
+
+/* --------------------------------------------------------------------------------------------*/
+    /* Componenteste detro do componente --> [ article ] */
+
+nav{
+
+	background-color: red; 				/* <-------=   */
+	/* background-color: none; */						/* <-------=   */
+
+
+	width: 256px;
+
+	height: 88%; 
+	
+	margin-top: 22px;
+	
+	overflow:auto;   /* Insere uma barra lateral e horizontal automaticamente se o conteudo for maior */
+
+
+}
+
+ul{
+
+    /* background-color: blue;     /* <-------=   */
+
+    width: 215px;
+
+    list-style: none;
+
+    margin-top: 14px;
+	
+}
+
+li{
+	
+	/* background-color: green;     /* <-------=   */
+
+	margin: 8px 5px 6px 0px;
+	text-align: left;
+	width: 200px;
+	height: 100%;
+
+}
+/* ____________________________________________________________________________________________*/
+
+
+/* ____________________________________________________________________________________________*/
+                                /* Conteudo das paginas html */
+aside{
+
+    background-color: red;
+	/* background-color: #DCDCDC; */
+
+    /* background: linear-gradient(to right top, #1E90FF, #B0E0E6);    /* <------=  */
+
+	border-radius:10px 10px 10px 10px;
+
+	border: 2px solid #F0F8FF;
+
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+
+	padding-left: 1%;
+
+	z-index:1;   /* esse elemento fica na frente da lista do menu ao esconder */
+	
+}
+
+/* --------------------------------------------------------------------------------------------*/
+    /* Componenteste detro do componente --> [ aside ] */
+
+#conteudo{
+
+	background-color: green;			/* <------=  */
+	/* background-color: none;				/* <------=  */
+
+	width: 99%;
+	height: 94%;
+
+	margin-right: 2%;
+	margin-top: 1%;
+
+	display:flex;
+
+	justify-content: center;
+
+}
+
+/* ____________________________________________________________________________________________*/
+                                    /* Base da pagina HTML */
+footer{
+	
+	background-color: gray;
+
+	position: fixed;
+	bottom: 0;
+
+	width: 98%;
+	height: 26px;
+
+	color: white;
+	text-align: center;
+
+	padding:10px;
+
+	margin-top:20px;
+
+	z-index:2;   /* esse elemento fica na frente da lista do menu ao esconder */
+	
+}
+
