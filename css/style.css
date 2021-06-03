@@ -406,13 +406,11 @@ aside{
 
 
 #conteudo .conteudo:target {
-	
-	
+
 	opacity:1; 
 
 	display: inline;
 	
-
 }
 
 .conteudo {
@@ -477,8 +475,6 @@ aside{
 }
 
 
-
-
 .subTitulo {
 
 	background: linear-gradient(to right top, #87CEEB, #F0FFFF); 
@@ -496,7 +492,7 @@ aside{
 	
 }
 
-.listaHome {
+.listaOpcao {
 	
 /*
 	width:97%;
@@ -562,29 +558,28 @@ aside{
 
 
 /* TAG [ p ] */
-.hc {
+.opcao {
 	
 	display: block;
 	/*// background-color: #E6E6FA; */
 	/* background-color: greenyellow; */
-	text-align: center;
-	
+
+	background-color: #87CEEB;
+
+	border: 2px solid #1E90FF;
+	border-radius: 5px;
+
 	width: 120px;
 	height: 26px;
+
+	text-align: center;
 	
 	padding-top: 10px;
 
 	margin-left: 10px;
+	margin-top: 50px;
 
 	cursor: pointer;
-
-		
-	background-color: #87CEEB;
-	
-	border: 2px solid #1E90FF;
-	border-radius: 5px;
-
-	margin-top: 50px;
 	
 }
 /*
@@ -598,7 +593,7 @@ aside{
 
 
 /* #seg_01 */
-.hc:hover{
+.opcao:hover{
 	
 	cursor: pointer;
 
@@ -627,7 +622,7 @@ aside{
 }
 */
 
-.hc:hover .item_img {
+.opcao:hover .item_img {
 	
 	display: inline;
 	
@@ -635,7 +630,7 @@ aside{
 }
 
 /*  #seg_01:hover  */
-.hc ~ .homeConteudo {
+.opcao ~ .opcaoConteudo {
 	
 	margin-left: 136px;
 
@@ -643,7 +638,7 @@ aside{
 
 
 /* .hc:hover ~ .homeConteudo .listaHome */
-#seg_01:hover ~ .homeConteudo > #btn_seguranca{
+#seg_01:hover ~ .opcaoConteudo > #segurancaOpcao{
 	
 	/* background-color: red; */
 	width: 97%;
@@ -664,7 +659,7 @@ aside{
 }
 
 
-.homeConteudo {
+.opcaoConteudo {
 
     display: float;
     /* 
@@ -676,7 +671,7 @@ aside{
 
 /* ---------------------------------------*/
 
-.conteudoHome {
+.conteudoIntem {
 	
 	/* background-color: yellow; */
 	display: flex;
@@ -688,7 +683,7 @@ aside{
 
 }
 
-.conteudoSeg {
+.conteudoPrimeiro, .conteudoSegundo {
 	
 	/* background-color: green; */
 
@@ -710,7 +705,7 @@ aside{
 
 
 
-.home_Fotos {
+.conteudo_Fotos {
 	
 	width: 96%;
 	height: 90%;
@@ -734,7 +729,7 @@ aside{
 */
 
 
-#ace_02:hover ~ .homeConteudo #btn_acessibilidade {
+#ace_02:hover ~ .opcaoConteudo #acessibilidadeOpcao {
 	
 	width: 97%;
 	height: 350px;
