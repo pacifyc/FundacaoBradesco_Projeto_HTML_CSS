@@ -471,7 +471,7 @@ aside{
 	height:99%;									/* <------=  */
 	
 	transition: all .3s linear;
-	
+
 }
 
 
@@ -500,6 +500,8 @@ aside{
 	margin:4px;
 	padding:6px;
 */	
+
+	margin-top: 10px;
 	/* background-color: yellow; /*  #ADD8E6  #F5F5F5 #1E90FF    #E0FFFF   #F5FFFA   #E6E6FA*/  
 	background-color: #ADD8E6;
 
@@ -641,6 +643,7 @@ aside{
 #seg_01:hover ~ .opcaoConteudo > #segurancaOpcao{
 	
 	/* background-color: red; */
+	
 	width: 97%;
 	height: 350px;
 	
@@ -683,26 +686,49 @@ aside{
 
 }
 
+.tituloConteudo{
+
+	display: inline-block;
+	margin: 6px 0px 0px 16px;
+}
+
 .conteudoPrimeiro, .conteudoSegundo {
 	
 	/* background-color: green; */
 
-	margin: 25px 10px 10px 10px;
+	/* margin: 10px 10px 10px 10px; */
 	
 	padding: 10px;
 	
 }
+.conteudoPrimeiro {
 
-#seg_Foto, #ace_Foto {
+	/* background-color: red; */
+	width: 50%;
+	margin: 10px 10px 10px 100px;
+
+	
+}
+
+.conteudoSegundo{
+
+	background-color: #6495ED;
+	width: auto;
+	margin: -4px 10px 36px 10px;
+}
+
+/*
+#seg_Foto, #ace_Foto, #pra_Foto {
 
 	width: 110%;
+
 		background-color: #6495ED;
 
 	/* font: monospace;  */
-	/* font-family: monospace; /*  arial; */
+	/* font-family: monospace; /*  arial; */ /*
 		
 }
-
+*/
 
 
 .conteudo_Fotos {
@@ -765,6 +791,29 @@ padding: 6px 6px 6px 6px;
 */
 }
 
+
+
+#pra_03:hover ~ .opcaoConteudo #praticidadeOpcao {
+	
+	width: 97%;
+	height: 350px;
+
+	transition: all .05s linear;
+
+	opacity: 1; 
+	display: block;
+
+	box-shadow:5px 4px 2px #B0C4DE;
+
+	border-radius: 10px;
+
+	margin: -320px 10px 10px 4px;
+
+	padding: 6px;
+
+
+
+}
 
 
 /* --------------------------------------------------------------------------------------------*/
