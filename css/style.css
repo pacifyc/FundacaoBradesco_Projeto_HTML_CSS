@@ -422,9 +422,14 @@ aside{
 	overflow: hidden;
 
 	background-color: #F5FFFA; 				/*   #fff000  <-------=   */
+/*
+	background: linear-gradient(to right top, #d6e4f1, #cccfcf);
 	
-	/* background-image: url("img/02_Acessibilidade.png");     /* <-------=   */
+	background-image: url("../img/objetivo_img_fundo_B.png");     /* <-------=   
+	background-size: 1300px 450px;
 
+	background-repeat: no-repeat; 
+*/
 	border-radius:10px 10px 10px 10px;      /* <-------=   */
 
 	width:99%;
@@ -435,6 +440,39 @@ aside{
 	opacity: 0; 
 	display:none;
 
+}
+
+
+#home01{
+
+	background: linear-gradient(to right top, #d6e4f1, #cccfcf);
+	
+	background-image: url("../img/objetivo_img_fundo_B.png");     /* <-------=   */
+	background-size: 1300px 450px;
+
+	background-repeat: no-repeat;
+
+    opacity: 1;
+
+}
+
+.transparencia{
+
+
+	overflow: hidden;
+	border-radius:10px 10px 10px 10px;     /* <-------=   */
+
+	width:100%;
+	height:100%;
+
+	/* margin: 5px; */
+
+	/* background: linear-gradient(to right top, #d6e4f1, #cccfcf); */
+	background-color: red;
+
+	/* background-color: #F5FFFA; */
+	opacity: 0.;
+	/* z-index: 1; */
 }
 
 .item_img{
@@ -502,7 +540,7 @@ aside{
 */	
 
 	margin-top: 10px;
-	/* background-color: yellow; /*  #ADD8E6  #F5F5F5 #1E90FF    #E0FFFF   #F5FFFA   #E6E6FA*/  
+	/* background-color: yellow; */  /* #ADD8E6  #F5F5F5 #1E90FF    #E0FFFF   #F5FFFA   #E6E6FA*/  
 	background-color: #ADD8E6;
 
 	opacity: 0; 
@@ -651,13 +689,13 @@ aside{
 	opacity: 1; 
 	display: block;
 
-	box-shadow:5px 4px 2px #B0C4DE;
+	box-shadow:5px 4px 2px #9da8b8;
 	
 	border-radius: 10px;
 	
 	margin: -146px 10px 10px 4px;
 	padding: 6px;
-	
+
 
 }
 
@@ -715,6 +753,7 @@ aside{
 	background-color: #6495ED;
 	width: auto;
 	margin: -4px 10px 36px 10px;
+	opacity: 10;
 }
 
 /*
