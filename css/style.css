@@ -448,8 +448,8 @@ aside{
 	background: linear-gradient(to right top, #d6e4f1, #cccfcf);
 	
 	background-image: url("../img/objetivo_img_fundo_B.png");     /* <-------=   */
-	background-size: 1300px 450px;
-
+	background-size: 100% 100%;
+	/* background-size: cover; */
 	background-repeat: no-repeat;
 
     opacity: 1;
@@ -471,7 +471,7 @@ aside{
 	background-color: red;
 
 	/* background-color: #F5FFFA; */
-	opacity: 0.;
+	opacity: 0.8;
 	/* z-index: 1; */
 }
 
